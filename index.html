@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Riot — Privat klubb i Bjørvika</title>
+  <meta name="description" content="The Riot er en privat og personlig klubb for trening, behandling og ro i Bjørvika, Oslo. Basseng, spa, badstue, isbad og egen klinikk." />
+
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=zodiak&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..600&family=Schibsted+Grotesk:wght@400;500&display=swap" />
+
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1730367019975-4ad8d9e14ef2?fm=jpg&q=72&w=2200&auto=format&fit=crop" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav" data-nav>
+    <a class="nav__brand" href="#top" aria-label="The Riot, til toppen">THE&nbsp;RIOT</a>
+    <nav class="nav__links" aria-label="Hovedmeny">
+      <a href="#opplevelsen">Opplevelsen</a>
+      <a href="#medlemskap">Medlemskap</a>
+      <a class="btn btn--ghost btn--sm" href="#medlemskap">
+        Søk medlemskap
+        <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M4 12L12 4M6 4h6v6"/></svg></span>
+      </a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- DECK A — hero deals into statement -->
+    <div class="deck" data-deck>
+      <section class="card card--hero" data-card>
+        <div class="card__inner" data-card-inner>
+          <div class="card__media" data-hero-media>
+            <div class="card__img hero__img" style="background-image:url('https://images.unsplash.com/photo-1730367019975-4ad8d9e14ef2?fm=jpg&q=72&w=2200&auto=format&fit=crop')"></div>
+            <div class="card__scrim card__scrim--hero"></div>
+          </div>
+          <div class="card__shade" data-card-shade></div>
+          <div class="card__content hero__content shell">
+            <h1 class="hero__title">
+              <span class="line"><span class="line__inner">Et opprør</span></span>
+              <span class="line"><span class="line__inner"><em>i ro.</em></span></span>
+            </h1>
+            <p class="hero__slogan mono" data-reveal>Privat. Personlig. Eksklusivt.</p>
+            <p class="hero__sub" data-reveal>Trening, behandling og restitusjon for deg som forventer mer. En privat klubb i Oslo.</p>
+            <div class="hero__actions" data-reveal>
+              <a class="btn btn--solid" href="#medlemskap">Søk medlemskap <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M4 12L12 4M6 4h6v6"/></svg></span></a>
+              <a class="btn btn--line-light" href="#opplevelsen">Se klubben</a>
+            </div>
+            <nav class="hero__locations" aria-label="Lokasjoner" data-reveal>
+              <span class="hero__locations-lead mono">Tre studioer i Oslo</span>
+              <a href="#lokasjoner">Majorstua</a>
+              <a href="#lokasjoner">Bjørvika</a>
+              <a href="#lokasjoner">Asker</a>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="card card--statement" data-card>
+        <div class="card__inner" data-card-inner>
+          <div class="card__shade" data-card-shade></div>
+          <div class="card__content shell">
+            <p class="mono statement__kicker">Filosofi</p>
+            <h2 class="statement__title">
+              <span class="line"><span class="line__inner" data-st-line>Trening er bare</span></span>
+              <span class="line"><span class="line__inner" data-st-line><em>begynnelsen.</em></span></span>
+            </h2>
+            <p class="statement__sub" data-reveal>Et opprør mot de tradisjonelle treningskonseptene.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ROOMS — 3D circular orbit, zoomed out for an evaluative overview -->
+    <section class="orbit" id="opplevelsen" data-orbit>
+      <div class="orbit__caption" data-orbit-caption>
+        <h3 class="orbit__name" data-orbit-name>Basseng &amp; spa</h3>
+        <p class="orbit__desc" data-orbit-desc>Basseng, dampbad og spa. Vann som senker skuldrene før dagen har begynt.</p>
+      </div>
+
+      <div class="orbit__scene" data-orbit-scene>
+        <div class="orbit__ring" data-orbit-ring>
+          <article class="ocard" data-ocard data-name="Basseng &amp; spa" data-desc="Basseng, dampbad og spa. Vann som senker skuldrene før dagen har begynt.">
+            <div class="ocard__img" style="background-image:url('https://images.unsplash.com/photo-1613152184920-bc1c4ab7fd1d?fm=jpg&q=72&w=1400&auto=format&fit=crop')"></div>
+            <span class="mono ocard__no">01</span>
+            <div class="ocard__cap"><span class="mono">(01)</span><span class="ocard__capname">Basseng &amp; spa</span></div>
+          </article>
+
+          <article class="ocard" data-ocard data-name="Badstue" data-desc="Finsk og infrarød badstue. Varme som setter seg i kroppen og blir.">
+            <div class="ocard__img" style="background-image:url('https://images.unsplash.com/photo-1655194911449-9f327e3d5a06?fm=jpg&q=72&w=1400&auto=format&fit=crop')"></div>
+            <span class="mono ocard__no">02</span>
+            <div class="ocard__cap"><span class="mono">(02)</span><span class="ocard__capname">Badstue</span></div>
+          </article>
+
+          <article class="ocard" data-ocard data-name="Isbad" data-desc="Kaldkulp for den som vil noe. Kulde med hensikt, ikke for syns skyld.">
+            <div class="ocard__img" style="background-image:url('https://images.unsplash.com/photo-1713270232602-bf8dc038d91c?fm=jpg&q=72&w=1400&auto=format&fit=crop')"></div>
+            <span class="mono ocard__no">03</span>
+            <div class="ocard__cap"><span class="mono">(03)</span><span class="ocard__capname">Isbad</span></div>
+          </article>
+
+          <article class="ocard" data-ocard data-name="Behandling" data-desc="The Riot Clinique. Fysio, kiropraktikk, osteopati og massasje under samme tak.">
+            <div class="ocard__img" style="background-image:url('https://images.unsplash.com/photo-1621554258209-a4a4305e29e5?fm=jpg&q=72&w=1400&auto=format&fit=crop')"></div>
+            <span class="mono ocard__no">04</span>
+            <div class="ocard__cap"><span class="mono">(04)</span><span class="ocard__capname">Behandling</span></div>
+          </article>
+
+          <article class="ocard" data-ocard data-name="Pust &amp; meditasjon" data-desc="Et eget rom for pust og stillhet. Plass kun til hodet.">
+            <div class="ocard__img" style="background-image:url('https://images.unsplash.com/photo-1731597076108-f3bbe268162f?fm=jpg&q=72&w=1400&auto=format&fit=crop')"></div>
+            <span class="mono ocard__no">05</span>
+            <div class="ocard__cap"><span class="mono">(05)</span><span class="ocard__capname">Pust &amp; meditasjon</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Membership tiers — full comparison, all visible -->
+    <section class="plans shell">
+      <header class="plans__head">
+        <h2 class="plans__title">Stamgjest.</h2>
+        <p class="plans__intro">Fire nivåer av medlemskap.</p>
+      </header>
+      <div class="plans__grid">
+
+        <article class="plan">
+          <p class="plan__over mono">Stamgjest</p>
+          <h3 class="plan__name">Ordinær</h3>
+          <p class="plan__tag">The Studio Access</p>
+          <p class="plan__price">2 000 <span>kr/mnd</span></p>
+          <p class="plan__status mono">Venteliste</p>
+          <ul class="plan__list">
+            <li>The Riot Studio og hvilepulsavdeling</li>
+            <li>Tilgang til universet: kun trening og fasiliteter</li>
+            <li>Egentrening, kaldkulp og badstuer, alt tilgjengelig når du vil</li>
+          </ul>
+          <p class="plan__sum">En smak av The Riot-opplevelsen.</p>
+        </article>
+
+        <article class="plan">
+          <p class="plan__over mono">Stamgjest</p>
+          <h3 class="plan__name">Sølv</h3>
+          <p class="plan__tag">For deg som søker balanse</p>
+          <p class="plan__price">fra 4 935 <span>kr/mnd</span></p>
+          <p class="plan__status mono">Ingen ventetid</p>
+          <ul class="plan__list">
+            <li>40 timer med personlig trening og behandling</li>
+            <li>Struktur og fremgang, fleksibilitet og frihet</li>
+            <li>Rentefri nedbetaling av 40 timer over 12 måneder</li>
+            <li>Ubegrenset tilgang til egentrening og restitusjon</li>
+          </ul>
+          <p class="plan__sum">Frihet til å prioritere deg selv, på dine vilkår.</p>
+        </article>
+
+        <article class="plan">
+          <p class="plan__over mono">Stamgjest</p>
+          <h3 class="plan__name">Gull</h3>
+          <p class="plan__tag">For deg som vil prestere over tid</p>
+          <p class="plan__price">fra 6 772 <span>kr/mnd</span></p>
+          <p class="plan__status mono">Ingen ventetid</p>
+          <ul class="plan__list">
+            <li>60 timer personlig oppfølging: trening, behandling og restitusjon</li>
+            <li>Tett oppfølging, men uten ekstra luksusdetaljer</li>
+            <li>Rentefri nedbetaling av 60 timer over 12 måneder</li>
+            <li>Fleksibel bruk over 12 måneder</li>
+            <li>Full tilgang til basseng, kaldkulp og badstuer</li>
+          </ul>
+          <p class="plan__sum">Full frihet. Ingen binding. Bare progresjon.</p>
+        </article>
+
+        <article class="plan">
+          <p class="plan__over mono">Stamgjest</p>
+          <h3 class="plan__name">Platinum</h3>
+          <p class="plan__tag">En helårs helseopplevelse</p>
+          <p class="plan__price">fra 8 190 <span>kr/mnd</span></p>
+          <p class="plan__status mono">Ingen ventetid</p>
+          <ul class="plan__list">
+            <li>Din personlige og private helse- og velværeinvestering</li>
+            <li>Eksklusiv, komplett og personlig. Alt inkludert</li>
+            <li>80 timer personlig trening og behandling, brukt når du vil gjennom hele året</li>
+            <li>Rentefri nedbetaling av de 80 timene over 12 måneder</li>
+            <li>Fri tilgang til alle fasiliteter</li>
+            <li>Vask av treningstøy og privat garderobeskap</li>
+          </ul>
+          <p class="plan__sum">Full frihet. Ingen binding. Bare gode resultater.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- DECK B — poster deals into membership -->
+    <div class="deck" data-deck>
+      <section class="card card--poster" data-card>
+        <div class="card__inner" data-card-inner>
+          <div class="card__media"><div class="card__img" style="background-image:url('https://images.unsplash.com/photo-1676302144341-10563603f99a?fm=jpg&q=72&w=2200&auto=format&fit=crop')"></div><div class="card__scrim card__scrim--soft"></div></div>
+          <div class="card__shade" data-card-shade></div>
+          <div class="card__content poster__content shell">
+            <article class="poster__card">
+              <p class="mono">Opplevelsen</p>
+              <p class="poster__lead">Et pusterom fra hverdagsstress, støy og kaos. Basseng og spa, badstue, isbad, behandling og et rom for pust. Alt på ett sted, <em>nøye gjennomtenkt.</em></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="card card--join" id="medlemskap" data-card>
+        <div class="card__inner" data-card-inner>
+          <div class="card__content join__content shell">
+            <p class="mono join__kicker" data-reveal>Medlemskap</p>
+            <h2 class="join__title" data-reveal>Vi har et begrenset<br />antall <em>plasser.</em></h2>
+            <p class="join__sub" data-reveal>Ingen gjestepass, drop-in eller prøvetimer. Et personlig medlemskap fra 2 000 kr i måneden, med venteliste.</p>
+            <a class="btn btn--solid-ivory btn--lg" href="mailto:post@theriot.no?subject=Medlemskap%20Bj%C3%B8rvika" data-reveal>Søk medlemskap <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25"><path d="M4 12L12 4M6 4h6v6"/></svg></span></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="foot" id="lokasjoner">
+      <div class="foot__grid shell">
+        <div class="foot__col foot__intro">
+          <span class="foot__brand">THE&nbsp;RIOT</span>
+          <p class="foot__tagline">Privat. Personlig. Eksklusivt.</p>
+        </div>
+        <div class="foot__col">
+          <p class="mono foot__city">Majorstua</p>
+          <p class="foot__addr">Majorstuveien 36<br />Oslo</p>
+        </div>
+        <div class="foot__col">
+          <p class="mono foot__city">Bjørvika</p>
+          <p class="foot__addr">Rostockgata 112<br />Bjørvika, Oslo</p>
+        </div>
+        <div class="foot__col">
+          <p class="mono foot__city">Asker</p>
+          <p class="foot__addr">Kirkeveien 220<br />Asker</p>
+        </div>
+      </div>
+      <div class="foot__base shell">
+        <span>© 2026 The Riot</span>
+        <a href="mailto:post@theriot.no">post@theriot.no</a>
+        <span>+47 21 41 84 54</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
